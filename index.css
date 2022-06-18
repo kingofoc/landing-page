@@ -85,9 +85,9 @@ section{
     justify-content: space-around;
     align-items: center;
     padding: 40px;
-    margin: 30px 0;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px hsla(192, 100%, 9%, 0.4);
+    margin: 40px 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(49, 49, 49, 0.192);
 }
 .flex-r{
     flex-direction: row-reverse;
@@ -230,4 +230,3 @@ section{
     .rights{
         text-align: center;
     }  
-}
