@@ -87,7 +87,7 @@ section{
     padding: 40px;
     margin: 30px 0;
     border-radius: 8px;
-    box-shadow: 0px 0px 5px hsla(192, 100%, 9%, 0.014);
+    box-shadow: 0px 0px 5px hsla(192, 100%, 9%, 0.4);
 }
 .flex-r{
     flex-direction: row-reverse;
@@ -122,18 +122,18 @@ section{
 .footer-down{
     padding: 50px;
     background-color: hsl(192, 100%, 9%);
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .fd-body{
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
+    margin-top: 20px;
 }
 .f-img{
     filter: brightness(0)invert(1);
 }
 .fd-con{
-    width: 24%;
-    margin: 20px 1% 0 0;
     font-weight: 400;
 }
 .f-items{
@@ -160,7 +160,7 @@ section{
     margin: 20px 0;
 }
 .s-icon a{
-    padding: 20px;
+    padding: 10px;
     color: hsl(0, 0%, 100%);
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 50%;
