@@ -122,19 +122,18 @@ section{
 .footer-down{
     padding: 50px;
     background-color: hsl(192, 100%, 9%);
+    margin-top: 50px;
 }
 .fd-body{
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
 }
 .f-img{
     filter: brightness(0)invert(1);
 }
 .fd-con{
-    width: 21%;
+    width: 24%;
     margin: 20px 1% 0 0;
-    font-family: 'Open Sans';
     font-weight: 400;
 }
 .f-items{
