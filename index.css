@@ -199,6 +199,7 @@ section{
     }
     .img-con img{
         width: 100%;
+        height: auto;
     }
     .text-con{
         text-align: center;
