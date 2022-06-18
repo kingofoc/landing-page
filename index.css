@@ -61,6 +61,10 @@ main .text-con{
 main .img-con{
     width: 50%;
 }
+main .img-con img{
+    width: 90%;
+    height: auto;
+}
 .text-con h1, h2{
     font-family: Poppins;
     font-weight: 600;
@@ -197,10 +201,9 @@ section{
         width: 100%;
         margin: 20px 0;
     }
-    .img-con img{
+    .sec-con .img-con img{
         width: 100%;
-        height: auto;
-    }
+    }   
     .text-con{
         text-align: center;
     }
