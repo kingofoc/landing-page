@@ -188,7 +188,11 @@ section{
         flex-direction: column;
         padding: 30px;
     }
-    main .text-con, .img-con{
+    main .text-con{
+        width: 100%;
+        margin: 20px 0;
+    }
+    main .img-con{
         width: 100%;
         margin: 20px 0;
     }
