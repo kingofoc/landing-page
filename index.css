@@ -14,8 +14,7 @@
 */
 
 body{
-    font-size: 18px;
-
+    font-family: 'Open Sans';
 }
 a{
     text-decoration: none;
@@ -35,11 +34,11 @@ button{
 }
 header button{
     background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 5px hsla(192, 100%, 9%, 0.014);
 }
 header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 30px 80px;
 }
 main{
@@ -53,6 +52,7 @@ main{
 main button {
     background-color: hsl(322, 100%, 66%);
     color: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 5px hsla(192, 100%, 9%, 0.014);
     margin: 10px 0;
 }
 main .text-con{
@@ -70,7 +70,6 @@ main .img-con img{
     font-weight: 600;
 }
 .text-con p{
-    font-family: 'Open Sans';
     font-weight: 400;
 }
 .text-con h1, p{
@@ -88,7 +87,7 @@ section{
     padding: 40px;
     margin: 30px 0;
     border-radius: 8px;
-    box-shadow: 0 0 5px hsla(192, 100%, 9%, 0.014);
+    box-shadow: 0px 0px 5px hsla(192, 100%, 9%, 0.014);
 }
 .flex-r{
     flex-direction: row-reverse;
@@ -113,7 +112,6 @@ section{
     border-radius: 8px;
 }
 .fu-con p{
-    font-family: 'Open Sans';
     font-weight: 700;
 }
 .fu-con button {
