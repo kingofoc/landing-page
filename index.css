@@ -214,6 +214,9 @@ section{
         width: 100%;
         margin-top: 10px;
     }
+    i{
+        font-size: 20px;
+        color: hsl(0, 0%, 100%)
     .rights{
         text-align: center;
         color: hsl(192, 100%, 96%);
