@@ -102,9 +102,13 @@ section{
     width: 100%;
     height: auto;
 }
-footer {
+footer{
     background-color: hsl(192, 100%, 9%);
 }
+.bottom-con{
+    display: flex;
+}
+
 
 
 @media screen and (max-width: 900px) {
