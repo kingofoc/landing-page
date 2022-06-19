@@ -102,6 +102,9 @@ section{
     width: 100%;
     height: auto;
 }
+footer {
+    background-color: hsl(192, 100%, 9%);
+}
 
 
 @media screen and (max-width: 900px) {
