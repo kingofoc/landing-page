@@ -109,10 +109,10 @@ footer{
 .bottom-con{
     display: flex;
     justify-content: space between;
-    color: hsl(0, 0%, 100%);
 }
 .bottom-con table, .bottom-links, .social{
     width: 24%;
+    color: hsl(0, 0%, 100%);
 }
 .bottom-con table{
     padding: 10px 5px;
