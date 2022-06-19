@@ -106,23 +106,37 @@ footer{
     background-color: hsl(192, 100%, 9%);
     padding: 50px;
 }
+footer .logo{
+    filter: brightness(0)invert(1);
+}
 .bottom-con{
+    margin-top: 40px;
     display: flex;
     justify-content: space between;
 }
-.bottom-con table, .bottom-links, .social{
+.bottom-con table, .bottom-links, .socials{
     width: 24%;
-    color: hsl(0, 0%, 100%);
 }
 .bottom-con table{
-    padding: 10px 5px;
     margin: 20px 0;
+    color: hsl(0, 0%, 100%);
+}
+td{
+    padding: 0 10px;
+}
+.bottom-links{
+    display: inline-block;
 }
 .bottom-links a{
+    margin: 20px 0;
+    color: hsl(0, 0%, 100%);
+}
+.socials{
     margin: 10px 0;
 }
-.social{
-    margin: 10px 0;
+.socials a{
+    color: hsl(0, 0%, 100%);
+    margin: 0 10px;
 }
 
 @media screen and (max-width: 900px) {
