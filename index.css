@@ -92,7 +92,7 @@ section{
 .flex-r{
     flex-direction: row-reverse;
 }
-.sec-con .img-con{
+.sec-con .text-con, .img-con{
     width: 40%;
 }
 .footer-up{
@@ -202,7 +202,7 @@ section{
         margin: 20px 0;
         padding: 30px;
     }
-    .sec-con .img-con{
+    .sec-con text-con, .img-con{
         width: 100%;
         margin: 20px 0;
     }
