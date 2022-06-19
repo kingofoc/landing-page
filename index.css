@@ -140,28 +140,4 @@ section{
     .text-con{
         text-align: center;
     }
-    .footer-logo {
-        width: 175px;
-        padding: unset;
-    }
-
-    .bottom-texts {
-        padding: unset;
-        flex-direction: column;
-    }
-
-    td {
-        padding-right: 17px;
-    }
-
-    .lpe, .bottom-links.two {
-        margin-bottom: 30px;
-    }
-
-    .socials {
-        text-align: center;
-    }
-    .rights{
-        text-align: center;
-    }
 }
