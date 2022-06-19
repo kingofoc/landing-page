@@ -219,9 +219,6 @@ section{
     .sec-con .img-con{
         width: 100%;
     }
-    .sec-con .img-con img{
-        width: 100%;
-    }   
     .text-con{
         text-align: center;
     }
@@ -242,5 +239,6 @@ section{
     }
     .rights{
         text-align: center;
-    }  
+    }
+
 }
