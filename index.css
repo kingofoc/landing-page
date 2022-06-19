@@ -119,6 +119,7 @@ footer .logo{
 .bottom-con{
     margin-top: 40px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 .bottom-con table{
@@ -127,10 +128,10 @@ footer .logo{
     margin-bottom: 20px;
 }
 tr{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 td{
-    margin: 0 5px;
+    padding: 0 10px;
 }
 .bottom-con .bottom-links, .socials{
     width: 20%;
@@ -187,6 +188,11 @@ td{
     }
     .text-con{
         text-align: center;
+    }
+    .ready{
+        width: 80%;
+        margin: 0 10%;
+        padding: 20px;
     }
     .bottom-con table{
         width: 100%;
