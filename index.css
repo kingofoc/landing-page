@@ -102,75 +102,75 @@ section{
     width: 100%;
     height: auto;
 }
-.footer-up{
-    display: block;
-    position: relative;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-}
-.fu-con{
-    position: absolute;
-    background-color: hsl(0, 0%, 100%);
-    display: block;
-    text-align: center;
-    padding: 30px 50px;
-    margin-left: 37%;
-    margin-top: 0;
-    border-radius: 8px;
-}
-.fu-con p{
-    font-weight: 700;
-}
-.fu-con button {
-    background-color: hsl(322, 100%, 66%);
-    color: hsl(0, 0%, 100%);
-    margin: 10px 0;
-    box-shadow: 0px 0px 10px rgba(49, 49, 49, 0.192);
-}
-.footer-down{
-    padding: 100px 50px 50px 50px;
+.bottom-section{
     background-color: hsl(192, 100%, 9%);
-    margin-top: 20px;
+    padding: 0 5%;
 }
-.footer-down img{
-    margin-top: 50px;
+
+.ready-to-build {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(49, 49, 49, 0.192);
+    width:50%;
+    text-align: center;
+    padding: 5%;
+    position: relative;
+    bottom: 10rem;
+    margin:auto;
 }
-.fd-body{
+
+.ready-to-build h1 {
+    margin-bottom: 30px;
+}
+
+.ready-to-build button {
+    box-shadow: 0px 5px 10px rgba(49, 49, 49, 0.205);
+    font-size: 16px;
+}
+
+.footer-logo {
+    width: 17%;
+    height: auto;
+    padding: 1% 0;
+    padding: 0px 7%;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 5rem;
+}
+
+.bottom-texts{
+    padding: 0px 7%;
+    color: #fff;
+    font-size: 17px;
     display: flex;
-    flex-direction: row;
-    margin-top: 20px;
+    position: relative;
+    bottom: 5rem;
 }
-.f-img{
-    filter: brightness(0)invert(1);
+
+.lpe{
+    flex: .9;
 }
-.fd-con{
-    font-weight: 400;
+
+.bottom-links{
+    flex: .4;
 }
-.f-items{
-    display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
-    margin-bottom: 10px;
+.socials {
+    flex: .4 ;
 }
-.f-items p{
-    color: hsl(192, 100%, 96%);
-    margin-left: 20px;
-    font-size: 12px
-}
-.fd-link{
-    color: hsl(192, 100%, 96%);
+
+.bottom-links span{
     display: block;
-    font-size: 12px
+    margin-bottom: 15px;
 }
-.s-icon{
-    font-size: 18px;
+
+table {
+    width: 90%;
 }
-.s-icon a{
-    padding: 10px;
-    margin: 0 10px;
-    color: hsl(0, 0%, 100%);
-    border: 1px solid hsl(0, 0%, 100%);
-    border-radius: 50%;
+
+td {
+    vertical-align: top;
+    padding-right: 25px;
+    border-bottom: 20px solid transparent;
 }
 .rights{
     text-align: right;
@@ -215,24 +215,26 @@ section{
     .text-con{
         text-align: center;
     }
-    .fu-con{
-        width: 90%;
-        padding: 10px;
-        margin-left: 5%;
+    .footer-logo {
+        width: 175px;
+        padding: unset;
     }
-    .footer-down{
-        padding: 20px;
-        background-color: hsl(192, 100%, 9%);
+
+    .bottom-texts {
+        padding: unset;
+        flex-direction: column;
     }
-    .fd-body{
-        flex-direction: column;  
+
+    td {
+        padding-right: 17px;
     }
-    .fd-con{
-        width: 100%;
+
+    .lpe, .bottom-links.two {
+        margin-bottom: 30px;
     }
-    .s-icon{
+
+    .socials {
         text-align: center;
-        margin-bottom: 10px;
     }
     .rights{
         text-align: center;
