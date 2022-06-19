@@ -114,20 +114,19 @@ footer .logo{
     display: flex;
     justify-content: space between;
 }
-.bottom-con table, .bottom-links, .socials{
-    width: 24%;
-}
 .bottom-con table{
-    margin: 20px 0;
+    width: 40%;
     color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
 }
 td{
     padding: 0 10px;
 }
-.bottom-links{
-    display: inline-block;
+.bottom-con .bottom-links, .socials{
+    width: 20%;
 }
 .bottom-links a{
+    display: block;
     margin: 20px 0;
     color: hsl(0, 0%, 100%);
 }
