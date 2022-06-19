@@ -94,6 +94,7 @@ section{
 }
 .sec-con .text-con, .img-con{
     width: 40%;
+    padding: 20px;
 }
 .footer-up{
     display: block;
@@ -123,11 +124,12 @@ section{
 .footer-down{
     padding: 50px;
     background-color: hsl(192, 100%, 9%);
-    margin-top: 50px;
+    margin-top: 10%;
 }
 .fd-body{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row;
     margin-top: 20px;
 }
@@ -135,7 +137,7 @@ section{
     filter: brightness(0)invert(1);
 }
 .fd-con{
-    width: 22%;
+    width: 24%;
     margin-right: 2%;
     font-weight: 400;
 }
@@ -164,6 +166,7 @@ section{
 }
 .s-icon a{
     padding: 5px 10px;
+    margin: 0 10px;
     color: hsl(0, 0%, 100%);
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 50%;
