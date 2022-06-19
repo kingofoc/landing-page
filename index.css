@@ -104,15 +104,29 @@ section{
 }
 footer{
     background-color: hsl(192, 100%, 9%);
+    padding: 50px;
 }
 .bottom-con{
     display: flex;
+    justify-content: space between;
+    color: hsl(0, 0%, 100%);
+}
+.bottom-con table, .bottom-links, .social{
+    width: 24%;
+}
+.bottom-con table{
+    padding: 10px 5px;
+    margin: 20px 0;
+}
+.bottom-links a{
+    margin: 10px 0;
+}
+.social{
+    margin: 10px 0;
 }
 
-
-
 @media screen and (max-width: 900px) {
-    header, main, section{
+    header, main, section, footer{
         padding: 20px;
     }
     .hero{
