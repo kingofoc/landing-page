@@ -105,7 +105,7 @@ section{
 .ready{
     position: relative;
     width: 50%;
-    margin: 150px 25% 0 25%;
+    margin: 30px 25% -70px 25%;
     padding: 40px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
@@ -120,7 +120,7 @@ section{
 footer{
     background-color: hsl(192, 100%, 9%);
     padding: 50px;
-    font-size: 12px;
+    font-size: 15px;
 }
 footer .logo{
     filter: brightness(0)invert(1);
